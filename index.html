@@ -268,7 +268,7 @@
   </header>
 
   <h1>Privacy Policy</h1>
-  <p class="updated">Last updated September 24, 2026</p>
+  <p class="updated">Last updated October 6, 2026</p>
 
   <nav class="toc" aria-label="Table of contents">
     <p>On this page</p>
@@ -347,14 +347,14 @@
     <ul class="plain">
       <li><strong>It stores locally, on your PC only:</strong> your download list (file names, addresses, progress) and a couple of settings such as theme. These live in your Windows user profile (<code class="inline">%APPDATA%\VantloadDownloader</code>) and are never uploaded. Deleting that folder removes them.</li>
       <li><strong>It connects to the sites you choose to download from.</strong> When you download a file or video, your computer contacts that site directly — the same as your browser would. For videos it uses the open-source tools yt-dlp and ffmpeg, which are bundled with the app and run on your computer.</li>
-      <li><strong>It has no accounts, no analytics and no telemetry,</strong> and it does not phone home. It does not check for updates in the background.</li>
+      <li><strong>It has no accounts, no analytics and no telemetry.</strong> The one thing it does on its own is look for a newer version: about once a day (and whenever you choose File &rarr; Check for updates) it asks GitHub's public releases page for the latest version number. That is an ordinary web request, so GitHub can see your IP address like any website you visit; nothing else about you or your downloads is sent. It never installs an update unless you click <em>Update now</em>, it checks the downloaded installer against the checksum GitHub publishes before running it, and you can turn the daily check off in Options.</li>
       <li><strong>It can start with Windows</strong> and stay in the system tray so it can catch downloads from your browser. You can turn this off in Options, and uninstalling removes it.</li>
     </ul>
   </section>
 
   <section id="thirdparty">
     <h2><span class="num">07</span> Third parties</h2>
-    <p>None. The extension does not integrate any third-party SDK, analytics library, or remote API, and it talks to nothing except the Vantload Downloader desktop app on your computer. The desktop app bundles the open-source tools yt-dlp and ffmpeg, which run locally; they connect only to the sites you ask them to download from.</p>
+    <p>None for the extension: it does not integrate any third-party SDK, analytics library, or remote API, and it talks to nothing except the Vantload Downloader desktop app on your computer. The desktop app bundles the open-source tools yt-dlp and ffmpeg, which run locally; they connect only to the sites you ask them to download from. The desktop app's optional update check contacts GitHub (github.com), operated by GitHub, Inc., only to learn the newest version number and, if you choose to update, to download the installer.</p>
   </section>
 
   <section id="children">
